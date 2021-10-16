@@ -5,3 +5,7 @@
  - Java
  - Recycler View
  - Data binding
+
+## Demo
+
+https://user-images.githubusercontent.com/49378579/137581291-537f2931-3c4c-4e22-a81e-7ed81a9f68aa.mp4
