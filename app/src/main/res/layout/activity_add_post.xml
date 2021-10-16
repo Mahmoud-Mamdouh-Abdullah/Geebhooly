@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_20sdp"
+        tools:context=".ui.post.AddPostActivity"
+        android:background="@color/white">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <TextView
+                android:id="@+id/sign_up_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:text="@string/add_post_msg"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/title"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/title"
+                    android:inputType="text"
+                    android:textSize="@dimen/_12ssp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/location"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/post_location"
+                    android:inputType="text"
+                    android:textSize="@dimen/_12ssp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/description"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|start"
+                    android:hint="@string/description"
+                    android:inputType="textMultiLine"
+                    android:lines="6"
+                    android:maxLines="6"
+                    android:scrollbars="vertical"
+                    android:textSize="@dimen/_12ssp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/lost_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/lost"
+                    android:textSize="@dimen/_12ssp" />
+
+                <RadioButton
+                    android:id="@+id/found_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/found"
+                    android:textSize="@dimen/_12ssp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginTop="@dimen/_10sdp">
+                <com.skydoves.powerspinner.PowerSpinnerView
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColorHint="@color/white"
+                    android:hint="@string/select_category"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="14.5sp"
+                    app:spinner_arrow_gravity="end"
+                    app:spinner_arrow_padding="8dp"
+                    app:spinner_divider_color="@color/white"
+                    app:spinner_divider_show="true"
+                    app:spinner_divider_size="0.4dp"
+                    app:spinner_item_array="@array/categories"
+                    app:spinner_popup_animation="dropdown"
+                    app:spinner_popup_background="@color/colorPrimaryDark"
+                    app:spinner_popup_elevation="14dp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginStart="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/image_count_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:textColor="@color/white"
+                        android:background="@drawable/count_background"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_5sdp"
+                        android:visibility="invisible"/>
+
+                    <ImageButton
+                        android:id="@+id/add_images_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?attr/selectableItemBackground"
+                        android:src="@drawable/ic_add_photo"
+                        android:contentDescription="@string/add_post" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/add_post_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/sign_in_ripple"
+                android:text="@string/add_post"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

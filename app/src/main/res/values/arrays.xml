@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories" >
+        <item>Select Category</item>
+        <item>IDs</item>
+        <item>Keys</item>
+        <item>Bags</item>
+        <item>Papers</item>
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Animals/Pets</item>
+        <item>Personal Accessories</item>
+        <item>Mail/Parcels</item>
+        <item>Collectors Items</item>
+        <item>Jewellery</item>
+    </string-array>
+
+    <string-array name="real_categories" >
+        <item>All</item>
+        <item>Lost things</item>
+        <item>Found things</item>
+        <item>IDs</item>
+        <item>Keys</item>
+        <item>Bags</item>
+        <item>Papers</item>
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Animals/Pets</item>
+        <item>Personal Accessories</item>
+        <item>Mail/Parcels</item>
+        <item>Collectors Items</item>
+        <item>Jewellery</item>
+
+    </string-array>
+</resources>

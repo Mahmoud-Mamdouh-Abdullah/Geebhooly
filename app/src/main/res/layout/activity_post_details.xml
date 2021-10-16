@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".ui.post.PostDetailsActivity"
+            android:paddingBottom="@dimen/default_margin">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/profile_text"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/profile_text_background"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/username_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/time_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/slider_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:sliderAnimationDuration="1000"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="4dp"
+                app:sliderIndicatorRadius="1.5dp"
+                app:sliderIndicatorSelectedColor="#636363"
+                app:sliderIndicatorUnselectedColor="@color/white"
+                app:sliderScrollTimeInSec="2"
+                app:sliderStartAutoCycle="true" />
+
+            <TextView
+                android:id="@+id/category_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/location_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/google_ripple"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/google_icon_reshape"
+                android:text="@string/call_post_owner"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

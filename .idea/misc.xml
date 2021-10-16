@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/count_background.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/google_btn.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/google_icon_reshape.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/google_ripple.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/ic_add.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/ic_add_photo.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/ic_call.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/profile_text_background.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/sign_in_ripple.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/drawable/signin_btn.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_add_post.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_main.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_post_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_posts.xml" value="0.5" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_signup.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/activity_splash_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/category_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/fragment_saved.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/nav_header.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/news_item.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/post_item.xml" value="0.33" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/layout/slider_item.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/menu/drawer_menu.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Falcon/AndroidStudioProjects/Hathooly/app/src/main/res/menu/search_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

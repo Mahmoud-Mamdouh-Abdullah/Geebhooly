@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+
+
+        <item android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_saved"
+            android:title="@string/my_posts"/>
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/log_out"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "727480534797",
+    "project_id": "hathooly-7b4b5",
+    "storage_bucket": "hathooly-7b4b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727480534797:android:4aa8252cf7a9d757d19244",
+        "android_client_info": {
+          "package_name": "com.mahmoudkhalil.hathooly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727480534797-0lf65r82vmtfg7at4o590aqfho66dt07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahmoudkhalil.hathooly",
+            "certificate_hash": "8260771adad2ada9d6a46c1e3b5cc22382a3c1e1"
+          }
+        },
+        {
+          "client_id": "727480534797-gn4mh54l3c3mdb01rp4n8lmgdkrf9ksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsOlggrH1Rw9mPLtUpuGGYmQM4k7iq4qU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727480534797-gn4mh54l3c3mdb01rp4n8lmgdkrf9ksg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
